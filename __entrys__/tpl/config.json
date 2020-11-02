@@ -1,0 +1,51 @@
+{
+  "dataPanels": [
+    {
+        "panel": 0,
+        "comps": [
+        ],
+        "style": {
+            "height":"900px"
+        }
+    }
+  ],
+  "mainConfig":{
+    "entry":{
+      "dev":"@/App.vue",
+      "prod":"@/App.vue"
+    }
+  },
+  "routerConfig":{
+    "base":{
+      "dev":[
+        {
+          "path":"/",
+          "name":"EditPage"
+        },
+        {
+          "path":"/preview",
+          "name":"Preview"
+        }
+      ],
+      "prod":[
+        {
+          "path":"/",
+          "name":"Preview"
+        }
+      ]
+    },
+    "routes":[
+      {
+        "path":"/page-two",
+        "name":"PageTwo"
+      }
+    ]
+  },
+  "style":{
+    "backgroundImage":"",
+    "backgroundRepeat":"no-repeat",
+    "backgroundSize":"100% 100%"
+  },
+  "reactiveData":{},
+  "static":[]
+}
